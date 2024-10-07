@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage("checkout") {
+            steps{
+                echo "Hello World"
+            }
+        }
+     stage ("Build")
+{
+steps
+{
+echo "hi there is number"
+  }
+ stage ("deploy")
+{
+steps
+{
+echo "hi hello"
+  }
+      }
+
+      }
+ }
