@@ -12,6 +12,7 @@ pipeline {
 steps
 {
 echo "hi there is number"
+)
   }
  stage ("deploy")
 {
